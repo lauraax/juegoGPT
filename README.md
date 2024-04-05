@@ -5,6 +5,7 @@ de moverse hacia arriba, abajo, derecha e izquierda.
 ## Prompts y respuestas:
 
 -You
+
 haz un juego en python usando pygame en el que hay una pelota que tiene la posibilidad de moverse hacia la derecha, izquierda, arriba y abajo
 Aquí tienes un ejemplo básico de un juego en Python utilizando Pygame en el que una pelota puede moverse hacia la derecha, izquierda, arriba y abajo:
 
@@ -82,9 +83,11 @@ while True:
 Este código crea una ventana de Pygame donde se dibuja una pelota. Puedes mover la pelota utilizando las teclas de flecha (izquierda, derecha, arriba, abajo). La velocidad de la pelota está configurada en 5 píxeles por fotograma, pero puedes ajustarla según tus necesidades.
 
 -You
+
 puedes hacer que la pelota vuelva a aparecer cuando pase los limites de la screen
 
 -ChatGPT
+
 ¡Claro! Para hacer que la pelota vuelva a aparecer en el lado opuesto cuando pase los límites de la pantalla, podemos modificar el código de la siguiente manera:
 
 ```python
@@ -169,10 +172,12 @@ while True:
 
 En este código, dentro del método `move()` de la clase `Ball`, hemos agregado comprobaciones para verificar si la pelota ha pasado los límites de la pantalla. Si lo hace, la posición se ajusta para que la pelota aparezca en el lado opuesto de la pantalla. De esta manera, la pelota reaparecerá en el lado opuesto cuando pase los límites de la pantalla.
 
--You
+-You.
+
 como es el color morado
 
 -ChatGPT
+
 El color morado en Pygame se puede representar mediante una tupla RGB (Rojo, Verde, Azul). La tupla de color para el morado puede variar dependiendo de la intensidad de cada componente, pero una representación común sería (128, 0, 128) o (160, 32, 240), por ejemplo.
 
 Aquí tienes un ejemplo de cómo definir el color morado en Pygame y utilizarlo en tu juego:
